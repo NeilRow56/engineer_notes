@@ -27,7 +27,7 @@ const DashFooter = () => {
     // router.query and router.push
 
     const content = (
-        <footer className='flex w-full'>
+        <footer className='flex w-full sticky bottom-0 left-0'>
             {goHomeButton}
             <div className='px-4 '>
                 <p>Current: User:</p>

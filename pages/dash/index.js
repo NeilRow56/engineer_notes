@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
-import DashLayout from '../components/DashLayout'
-import PublicPage from '../components/Public'
+import DashLayout from '../../components/DashLayout'
+import Welcome from '../../features/Welcome'
 
 const PublicHomePage = () => {
   return (
@@ -10,7 +10,7 @@ const PublicHomePage = () => {
         <title>Public Home Page </title>
     </Head>
     <DashLayout >
-      <PublicPage />
+      <Welcome />
 
     </DashLayout>
     </div>

@@ -1,6 +1,6 @@
 import Head from "next/head"
 import Layout from '../components/Layout'
-
+import PublicPage from '../components/Public'
 
 const Home = () => {
   return (
@@ -10,10 +10,10 @@ const Home = () => {
         <title>Home Page</title>
     </Head>
     <Layout>
-    <main className='h-screen bg-my_bg_image'>
+    <main className=''>
       <h1>Home</h1>
 
-      
+      <PublicPage />
     </main>
       
         </Layout> 

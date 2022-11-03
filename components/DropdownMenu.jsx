@@ -24,7 +24,7 @@ function DropdownMenu() {
       };
   return (
     <Menu>
-      <Menu.Button className="text-blue-800 hover:text-red-800">{session.user.name}</Menu.Button>
+      <Menu.Button className="text-yellow-400 hover:text-red-800">{session.user.name}</Menu.Button>
       <Menu.Items className="absolute right-[60px] top-[55px] w-48 origin-top-right bg-white  shadow-lg ">
         {links.map((link) => (
           <Menu.Item

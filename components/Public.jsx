@@ -5,7 +5,7 @@ import React from 'react'
 
 const PublicPage = () => {
   return (
-     <section className="h-screen  bg-my_bg_image">
+     <section className="h-screen  ">
             <header>
                 <h1>Welcome to <span className="nowrap">Dan D. Repairs!</span></h1>
             </header>

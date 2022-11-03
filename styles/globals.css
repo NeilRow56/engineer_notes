@@ -3,6 +3,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  
+  
+  background-image: url('/background.jpg');
+  min-height: 100vh;
+  color: #fff;
+  background-size: cover;
+  background-position: top right;
+  background-blend-mode: multiply;
+  
+}
+
  
 *>* {
   font-family: 'Poppins', sans-serif;
@@ -16,10 +29,10 @@
     @apply  text-red-800 flex  p-2 hover:bg-gray-200;
   }
   .active {
-    @apply font-bold border-gray-200 text-blue-800 shadow-md px-2 py-1 m-2 bg-gray-200 rounded-full hover:text-red-800;
+    @apply font-bold border-gray-200 text-green-400 shadow-md px-2 py-1 m-2 bg-gray-200 rounded-full hover:text-red-800;
   }
   .not_active {
-    @apply   text-blue-800 px-2 hover:text-red-800;
+    @apply   text-yellow-400 px-2 hover:text-red-800;
   }
   .primary-button {
     @apply rounded bg-amber-300 py-2 px-4 shadow outline-none hover:bg-amber-400  active:bg-amber-500;
