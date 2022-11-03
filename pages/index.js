@@ -11,7 +11,7 @@ const Home = () => {
     </Head>
     <Layout>
     <main className=''>
-      <h1>Home</h1>
+      
 
       <PublicPage />
     </main>

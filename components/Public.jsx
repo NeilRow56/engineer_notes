@@ -5,12 +5,12 @@ import React from 'react'
 
 const PublicPage = () => {
   return (
-     <section className="h-screen  ">
-            <header>
-                <h1>Welcome to <span className="nowrap">Dan D. Repairs!</span></h1>
+     <section className="  ">
+            <header className=' '>
+                <h1 className='text-3xl font-bold border-b py-3'>Welcome to <span className="nowrap">Dan D. Repairs!</span></h1>
             </header>
-            <main className="">
-                <p>Located in Beautiful Downtown Foo City, Dan D. Repairs  provides a trained staff ready to meet your tech repair needs.</p>
+            <main className="h-[750px]">
+                <p className='py-3'>Located in Beautiful Downtown Foo City, Dan D. Repairs  provides a trained staff ready to meet your tech repair needs.</p>
                 <address className="">
                     Dan D. Repairs<br />
                     555 Foo Drive<br />
@@ -21,7 +21,10 @@ const PublicPage = () => {
                 <p>Owner: Dan Davidson</p>
             </main>
             <footer>
-                <Link href="/login">Employee Login</Link>
+                <Link href="/signin">
+                    <a className='text-yellow-500'>Employee Login</a>
+                    
+                </Link>
             </footer>
         </section>
   )

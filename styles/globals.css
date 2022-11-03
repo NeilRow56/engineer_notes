@@ -9,6 +9,7 @@ body {
   
   background-image: url('/background.jpg');
   min-height: 100vh;
+  background-color: #0F172A;
   color: #fff;
   background-size: cover;
   background-position: top right;
@@ -29,7 +30,7 @@ body {
     @apply  text-red-800 flex  p-2 hover:bg-gray-200;
   }
   .active {
-    @apply font-bold border-gray-200 text-green-400 shadow-md px-2 py-1 m-2 bg-gray-200 rounded-full hover:text-red-800;
+    @apply font-bold border-gray-200 text-yellow-800 shadow-md px-2 py-1 m-2 bg-gray-200 rounded-full hover:text-red-800;
   }
   .not_active {
     @apply   text-yellow-400 px-2 hover:text-red-800;

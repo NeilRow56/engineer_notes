@@ -2,17 +2,18 @@ import React from 'react'
 import { useRouter } from 'next/router';
 
 import { FaHome } from "react-icons/fa";
+import Link from 'next/link';
  
 const DashFooter = () => {
 
     const router = useRouter()
     
 
-    const onGoHomeClicked = () => redirect('/dash')
+    const onGoHomeClicked = () => router.push('/dash')
 
         let goHomeButton = null
 
-        if (router.pathname !== '/dashing' ) {  
+        if (router.pathname !== '/dash' ) {  
                    goHomeButton = (
                 <button
                 className='primary-button'
@@ -29,9 +30,10 @@ const DashFooter = () => {
     const content = (
         <footer className='flex w-full sticky bottom-0 left-0'>
             {goHomeButton}
-            <div className='px-4 '>
-                <p>Current: User:</p>
+            <div className='px-4 flex flex-row '>
+                <p className='mr-5'>Current: User:</p>
             <p>Status:</p>
+            
             </div>
             
 

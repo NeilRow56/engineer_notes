@@ -48,8 +48,8 @@ const Signin = () => {
     </Head>
     
     <form className='mx-auto max-w-screen-md mt-16' onSubmit={handleSubmit(submitHandler)}>
-        <h1 className='mb-4 text-3xl text-blue-800'>Sign In</h1>
-        <div className='mb-4'>
+        <h1 className='mb-4 text-3xl text-white'>Sign In</h1>
+        <div className='mb-4 text-gray-800'>
             <label htmlFor="email">Email</label>
             <input
             type="email"
@@ -71,7 +71,7 @@ const Signin = () => {
             <small id="emailHelp" className='text-sm text-gray-400 '>We&apos;ll never share your email with anyone else</small>
             
         </div>
-        <div>
+        <div className='mb-4 text-gray-800'>
             <label htmlFor="password">Password</label>
             <input
             type="password"
