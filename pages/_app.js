@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-import Layout from '../components/Layout'
+
 import { SessionProvider, useSession } from 'next-auth/react';
 import { StoreProvider } from '../utils/Store';
 import { useRouter } from 'next/router';
@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
     <SessionProvider session={session}>
       <StoreProvider>
       
-      <Layout>
+      
           {Component.auth ? (
             <Auth>
               <Component {...pageProps} />
@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
           ) : (
             <Component {...pageProps} />
           )}
-          </Layout>
+         
           
           </StoreProvider>
     </SessionProvider>

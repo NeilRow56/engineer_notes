@@ -1,18 +1,25 @@
 import Head from "next/head"
+import Layout from '../components/Layout'
 
 
 const Home = () => {
   return (
     
-      <div>
+      <>
         <Head>
         <title>Home Page</title>
     </Head>
+    <Layout>
+    <main className='h-screen bg-my_bg_image'>
+      <h1>Home</h1>
+
       
-        <h1>Home</h1>
-      </div>
+    </main>
       
+        </Layout> 
+      </>
       
+     
     
   )
 }

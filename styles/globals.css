@@ -16,10 +16,10 @@
     @apply  text-red-800 flex  p-2 hover:bg-gray-200;
   }
   .active {
-    @apply font-bold border-gray-200 text-blue-800 shadow-md px-2 py-1 m-2 bg-gray-200 rounded-full hover:text-blue-400;
+    @apply font-bold border-gray-200 text-blue-800 shadow-md px-2 py-1 m-2 bg-gray-200 rounded-full hover:text-red-800;
   }
   .not_active {
-    @apply   text-blue-800 px-2 hover:text-blue-400;
+    @apply   text-blue-800 px-2 hover:text-red-800;
   }
   .primary-button {
     @apply rounded bg-amber-300 py-2 px-4 shadow outline-none hover:bg-amber-400  active:bg-amber-500;
@@ -28,5 +28,4 @@
     @apply rounded bg-gray-100 py-2  px-4 text-black shadow outline-none hover:bg-gray-200  active:bg-gray-300;
   }
 
-  
-  
+ 

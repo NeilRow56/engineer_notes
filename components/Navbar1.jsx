@@ -39,10 +39,10 @@ const Navbar1 = () => {
                </Link>
             <div className='flex items-center'>
                 <div className='flex items-center px-2 py-1'>
-                <FaShoppingCart className='items-center h-6 w-6 text-green-500' />
-              <Link href="/cart">
+                
+              <Link href="/dash">
                 <a className={router.pathname == '/cart' ? "active" : "not_active" } > 
-                Cart
+                Public
                 {cartItemsCount > 0 && (
                   <span className='ml-1 rounded-full bg-red-600 px-2 py-1 text-xs font-bold text-white'>{cartItemsCount}</span>
                 )}
